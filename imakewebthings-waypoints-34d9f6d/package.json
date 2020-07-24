@@ -18,7 +18,7 @@
     "scroll"
   ],
   "devDependencies": {
-    "eslint": "^0.6.2",
+    "eslint": "^7.5.0",
     "gulp": "^3.6.2",
     "gulp-concat": "^2.2.0",
     "gulp-eslint": "^0.1.7",

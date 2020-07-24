@@ -1,0 +1,156 @@
+@media only screen and (max-width:1200px)
+{
+    .hero-text-box{
+  
+        width:100%;
+        padding:0 2%;
+}
+    .row{
+        padding:0 2%;
+    }
+
+@media only screen and (max-width:1023px)
+{
+    body{
+        font-size:18px;
+    }
+    section:{
+        padding:60px 0;
+    }
+    .long-copy{
+
+        width:80%;
+        margin-left: 10%;  
+}
+    .steps-box{
+        margin-top: 10px;
+    }
+    .steps-box:last-child{
+    margin-top: 10px;
+}
+   .works-step{
+    margin-bottom: 40px;
+}
+    .app-screen{width: 50%;}
+}
+    .icon-small{
+
+        width:17px;
+    margin-right: 5px;}
+    .City-feature{
+        font-size:90%;
+    }
+    .plan-box{
+        width:100%;
+        margin-left: 0%;
+    }
+    .plan-price{
+        font-size:250%;
+    }
+    .contact-form{
+        width:80%;
+    }
+
+@media only screen and (max-width:767px)
+{
+    body{font-size: 16px};
+    section{
+        padding:30px 0;
+    }
+    .row,.hero-text-box{
+        padding:0 4%;
+    }
+    .col{
+        width:100%;
+        margin:0 0 4% 0;
+    }
+    .main-nav{
+        display: none;
+    }
+    .mobile-nav-icon{
+        display:inline-block;
+    }
+    .main-nav{
+        float:left;
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border:0;
+        padding:10px 0;
+        font-size: 100%;
+        
+    }
+    .sticky{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: rgba(255,255,255,0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index:9999;
+
+}
+.sticky .main-nav{
+ 
+    margin-top:10px;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 10px 0;
+    }
+    .sticky .mobile-nav-icon ion-icon{
+        margin-top:10px;
+    }
+    .sticky .mobile-nav-icon ion-icon{
+        color: #555;
+    }
+    
+    
+    
+    
+    .long-copy{
+        width:100%;
+        margin-left:0%;
+    }
+    h1{
+        font-size:180%;
+    }
+    h2{
+        font-size:150%;
+    }
+    .works-step{
+    margin-bottom: 20px;
+}
+    .works-step div{
+
+    height: 40px;
+    width: 40px;
+    padding:4px;
+    margin-right: 15px;
+    font-size:120%;
+}
+    .steps-box:first-child{
+        text-align: center;
+    }
+    .app-screen{
+        width:40%;
+    }
+}
+
+
+@media only screen and (max-width:480px)
+{
+    section{
+        padding:25px 0;
+    }
+    .contact-form{
+        width:100%;
+    }
+    
+}
